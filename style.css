@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(247, 147, 147);
+}
+
+.todoList {
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+    border-bottom: 1px solid pink;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    box-shadow: 5px 5px palevioletred;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.deleteTask {
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    background: red;
+    color: white;
+}
